@@ -8,6 +8,7 @@ const DoctorSchema = mongoose.Schema(
     location: { type: String },
     date: { type: String },
     slots: { type: Number },
+    fee: { type: Number },
   },
   {
     versionKey: false,
